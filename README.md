@@ -37,4 +37,4 @@ Esta seção será utilizada para registrar problemas encontrados durante o dese
 
 ## Fontes
 
-As informações utilizadas para a construção deste miniguia foram pesquisadas e analisadas durante o processo de estudo.
+As informações utilizadas para a construção deste miniguia foram pesquisadas e analisadas durante o processo de estudo, utilizando como referência a documentação oficial do Git e do GitHub.
