@@ -65,6 +65,7 @@ Fica no computador	Fica em um servidor
 Usado durante o desenvolvimento	Usado para compartilhamento e colaboração
 Pode ser utilizado sem internet na maior parte das operações	Normalmente depende da internet para sincronização
 Guarda o histórico local	Recebe o histórico enviado pelo Git
+
 4. Commit
 
 Um commit é um registro de alterações no histórico do projeto.
@@ -239,6 +240,7 @@ Em projetos que utilizam Branches:
 Main → Nova Branch → Desenvolvimento → Commits → Pull Request → Merge → Main
 
 12. Principais termos
+
 Termo	Explicação simples
 Git	Sistema de controle de versão
 GitHub	Plataforma para hospedagem e colaboração com repositórios Git
@@ -251,6 +253,7 @@ Pull Request	Solicitação para analisar e integrar alterações
 Push	Envio de commits para o repositório remoto
 Pull	Recebimento de alterações do repositório remoto
 Clone	Criação de uma cópia local de um repositório remoto
+
 13. Aprendizados
 
 Durante a construção deste miniguia, foram estudados conceitos fundamentais de Git e GitHub e colocados em prática no próprio repositório.
@@ -269,18 +272,93 @@ Essas dificuldades foram utilizadas como parte do aprendizado, permitindo compre
 
 Os erros encontrados também mostraram a importância de realizar alterações de forma organizada, utilizar mensagens de commit claras e compreender o fluxo entre o repositório local e o repositório remoto.
 
-15. Fontes
+## 15. Curadoria de Fontes
 
-As informações utilizadas neste miniguia foram estudadas e organizadas com o auxílio do NotebookLM, utilizando as fontes selecionadas no notebook.
+Para a construção deste miniguia, foram selecionadas fontes abertas e confiáveis relacionadas ao Git e ao GitHub. Essas fontes foram adicionadas ao NotebookLM e utilizadas como base para estudar, comparar e organizar as informações apresentadas neste projeto.
 
-As principais referências utilizadas foram materiais relacionados à documentação oficial do Git e do GitHub.
+### Fontes utilizadas
 
-O objetivo foi utilizar as fontes como base para compreender os conceitos e transformar o conteúdo técnico em uma explicação mais simples para estudantes iniciantes.
+1. **GitHub Docs — Documentação oficial do GitHub**
+   https://docs.github.com/pt
 
-Conclusão
+2. **Pro Git — Livro sobre Git**
+   https://git-scm.com/book/pt-br/v2
 
-A construção deste miniguia proporcionou uma experiência prática com os principais conceitos de Git e GitHub.
+3. **Git Documentation — Documentação oficial do Git**
+   https://git-scm.com/docs
 
-Além de compreender os comandos e conceitos apresentados, o desenvolvimento do próprio projeto permitiu vivenciar etapas importantes de um fluxo de trabalho, como criação de Branches, realização de Commits, envio de alterações com Push, criação de Pull Requests e integração por meio de Merge.
+As fontes foram escolhidas por apresentarem informações diretamente relacionadas aos conceitos estudados no miniguia, incluindo repositórios, commits, branches, merge, Pull Request e os comandos básicos do Git. A documentação oficial do Git apresenta, por exemplo, comandos relacionados a commits, branches, merge, pull e push. A documentação do GitHub também reúne conteúdos sobre repositórios e Pull Requests.
 
-Dessa forma, o projeto contribuiu para transformar o conhecimento teórico em uma experiência prática, servindo como material de consulta para futuros estudos.
+## 16. Engenharia de Prompts e uso do NotebookLM
+
+Durante a construção do miniguia, o NotebookLM foi utilizado como ferramenta de apoio à aprendizagem e organização do conhecimento.
+
+As perguntas foram elaboradas com o objetivo de compreender os conceitos de Git e GitHub de forma simples, identificar diferenças entre os recursos e organizar as informações para estudantes iniciantes.
+
+### Prompts utilizados
+
+**Prompt 1 — Conceitos fundamentais**
+
+> Explique os principais conceitos de Git e GitHub para uma pessoa que está começando na área de desenvolvimento de software. Utilize uma linguagem simples e apresente exemplos práticos.
+
+**Prompt 2 — Diferenças entre conceitos**
+
+> Explique de forma simples a diferença entre Git e GitHub, repositório local e remoto, commit, branch, merge, Pull Request, push, pull e clone.
+
+**Prompt 3 — Fluxo de trabalho**
+
+> Apresente um fluxo básico de utilização do Git e GitHub, desde uma alteração realizada em um arquivo até o envio para o repositório remoto.
+
+**Prompt 4 — Organização do miniguia**
+
+> Organize os principais conceitos de Git e GitHub em uma estrutura de miniguia para estudantes iniciantes, incluindo explicações simples, exemplos práticos, glossário e fluxo de trabalho.
+
+### Variação e refinamento dos prompts
+
+Durante o processo, os prompts foram ajustados para obter respostas mais claras, organizadas e adequadas ao objetivo do projeto.
+
+Em vez de utilizar apenas perguntas genéricas, foram solicitadas explicações com exemplos, comparações e organização por tópicos. Esse processo ajudou a transformar informações técnicas em um material mais fácil de compreender.
+
+### Resultado do uso dos prompts
+
+As respostas obtidas no NotebookLM serviram como apoio para compreender os conceitos, comparar informações presentes nas fontes selecionadas e organizar o conteúdo final do miniguia.
+
+O conteúdo produzido pela IA não foi utilizado apenas de forma automática. As informações foram analisadas e organizadas de acordo com o objetivo do projeto e com as fontes utilizadas no NotebookLM.
+
+## 17. Troubleshooting e Prompts Reutilizáveis
+
+### Troubleshooting
+
+Durante a elaboração do projeto, algumas dificuldades foram encontradas durante o uso do GitHub e do NotebookLM.
+
+Uma das principais dificuldades foi compreender a diferença entre Git e GitHub e entender o papel de recursos como commit, branch, merge e Pull Request.
+
+Também foi necessário ajustar os prompts utilizados no NotebookLM para obter respostas mais organizadas, claras e adequadas ao objetivo do miniguia.
+
+Outro aprendizado importante foi compreender que a resposta fornecida pela Inteligência Artificial precisa ser analisada e comparada com as fontes utilizadas. A IA foi utilizada como ferramenta de apoio ao estudo, e não como substituta da análise das informações.
+
+### Prompts reutilizáveis
+
+Os prompts abaixo podem ser utilizados em futuras revisões ou estudos sobre Git e GitHub:
+
+**Prompt 1 — Revisão**
+
+> Revise os principais conceitos de Git e GitHub e explique de forma simples quais são as funções de cada recurso.
+
+**Prompt 2 — Exercícios práticos**
+
+> Crie exercícios práticos para treinar Git e GitHub, começando por comandos básicos e avançando gradualmente para branches, merge e Pull Requests.
+
+**Prompt 3 — Identificação de erros**
+
+> Analise este problema relacionado ao Git ou GitHub, explique a possível causa e apresente uma solução passo a passo utilizando uma linguagem simples.
+
+**Prompt 4 — Revisão para iniciantes**
+
+> Faça uma revisão dos principais conceitos de Git e GitHub para iniciantes, apresentando exemplos práticos e destacando os pontos que costumam gerar dúvidas.
+
+### Conclusão
+
+A construção deste miniguia permitiu utilizar o NotebookLM como uma ferramenta de aprendizagem ativa, combinando curadoria de fontes, elaboração de prompts, análise das respostas e organização do conhecimento.
+
+O projeto também possibilitou praticar Git e GitHub durante sua própria construção, tornando o aprendizado mais próximo de uma situação real de desenvolvimento.
